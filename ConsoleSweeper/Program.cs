@@ -6,7 +6,9 @@ namespace ConsoleSweeper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SweeperGrid board1 = new SweeperGrid();
+            
+            
 
             Console.ReadLine();
         }
